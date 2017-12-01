@@ -1,0 +1,24 @@
+runtime: php55
+api_version: 1
+threadsafe: true
+
+handlers:
+- url: /(.+\.php)$
+  script: \1
+
+- url: /
+  script: website.php
+
+- url: /web/
+  script: website.php
+
+- url: /Stylesheet/
+  static_files: Resources/style.css
+  upload: Resources/style.css
+
+- url: /(.+\.*)
+  static_files: /\1
+  upload: /(.+\.*)
+
+error_handlers:
+  - file: whoops.php
