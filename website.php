@@ -8,8 +8,7 @@
 	?>
 <html>
 	<head>
-		<link type="text/css" rel="stylesheet" href="Stylesheet/" />
-		<link type="text/css" rel="stylesheet" href="Resources/style.css">
+		<link type="text/css" rel="stylesheet" href="style.css">
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<title>AMS Consumer Investments - <?php echo $page; ?></title>
@@ -20,7 +19,7 @@
 				<div id="headerBlock">
 					<menu>
 						<div class="headerContent_ignore" onClick="window.location.href='?page=Home'">
-							<img src="Resources/logo.png" alt="AMS Logo">
+							<img src="logo.png" alt="AMS Logo">
 						</div>
 						<div class="headerContent" onClick="window.location.href='?page=Home'">Home</div>
 						<div class="headerContent" onClick="window.location.href='?page=About'">About</div>
@@ -28,7 +27,7 @@
 						<div class="headerContent" onClick=	"window.location.href='portal.php'">Invest</div>
 					</menu>
 					<dropDown>
-						<img src="Resources/logo.png" alt="AMS Logo"><br>
+						<img src="logo.png" alt="AMS Logo"><br>
 						You're viewing our <?php echo $page;?> page<br>
 						<select> 
 							<option value="" selected="selected">Navigate To...</option> 
@@ -150,13 +149,13 @@
 					</span>
 					<span id="ourDirectors">
 						<director>
-							<img class="directorPhoto" alt="Alan Whitehurst" src="Resources/alan.jpg" ><br>
+							<img class="directorPhoto" alt="Alan Whitehurst" src="alan.jpg" ><br>
 							<u><b>Alan Whitehurst</b></u><br>
 							&#9742; 076 873 7090<br>
 							&#9993; <a style="text-decoration:none; color:black;" href="mailto:alanw@amsinvestments.co.za" target="_blank">alanw@amsinvestments.co.za</a>
 						</director>
 						<director>
-							<img class="directorPhoto" alt="Matthew Mc Allister" src="Resources/matthew.jpg" ><br>
+							<img class="directorPhoto" alt="Matthew Mc Allister" src="matthew.jpg" ><br>
 							<u><b>Matthew Mc Allister</b></u><br>
 							&#9742; 071 158 3596<br>
 							&#9993; <a style="text-decoration:none; color:black;" href="mailto:matthewm@amsinvestments.co.za" target="_blank">matthewm@amsinvestments.co.za</a>
@@ -193,8 +192,8 @@
 		<div id="footer">
 		<h2 id="footerHeading">The Boring Stuff</h2>
 		<ul>
-			<li><a href="Resources/tos.html">Terms of Service</a></li>
-			<li><a href="Resources/privacyPolicy.html">Privacy Policy</a></li>
+			<li><a href="tos.html">Terms of Service</a></li>
+			<li><a href="privacyPolicy.html">Privacy Policy</a></li>
 		</ul>
 		<span>&copy AMS Consumer investments (PTY) LTD 2017 - <?php echo date("Y"); ?><br>website designed by Bushie's Web Design, a division of AMS Consumer Investments (PTY) LTD</span>
 	</div>
