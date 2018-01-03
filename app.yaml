@@ -12,9 +12,9 @@ handlers:
 - url: /web/
   script: website.php
 
-- url: /Stylesheet/
-  static_files: Resources/style.css
-  upload: Resources/style.css
+- url: /style.css
+  static_files: style.css
+  upload: style.css
 
 - url: /(.+\.*)
   static_files: /\1
