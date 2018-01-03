@@ -1,0 +1,210 @@
+menu
+{
+	width: 100%;
+	margin: 0 auto;
+	padding: 0;
+}
+dropDown
+{
+	display: none;
+	width: 100%;
+	margin: 0 auto;
+	padding-top: 15px;
+	text-align: center;
+	min-width: 10%;
+	cursor: pointer;
+	transition-duration: 1s;
+	border-radius: 100%;
+}
+#header
+{
+	height: 65px;
+}
+@media (max-width: 360px) {
+  menu     { display: none; }
+  dropDown { display: block; }
+  #header {height: 100px;}
+}
+body
+{
+  width: 100%;
+  min-width: 360px;
+  min-height: 100vh;
+  height: auto;
+  padding: 0;
+  margin: 0 auto;
+  background-color: black;
+}
+#body
+{
+  width: 100%;
+  min-width: 360px;
+  min-height: 100vh;
+  height: auto;
+  padding: 0;
+  margin: 0 auto;
+  background-color: black;
+}
+#header
+{
+  width: 100%;
+  background-color: #000000;
+  color: #FFFFFF;
+}
+#headerBlock
+{
+  width: 95%;
+  margin: 0 auto;
+  padding: 0;
+}
+.headerContent_ignore
+{
+  padding-top: 35px;
+  display: block;
+  float: left;
+  text-align: center;
+  min-width: 20%;
+  cursor: pointer;
+  height: 100%;
+}
+.headerContent
+{
+  padding-top: 35px;
+  display: block;
+  float: left;
+  text-align: center;
+  min-width: 10%;
+  cursor: pointer;
+  height: 100%;
+  transition-duration: 1s;
+  border-radius: 100%;
+}
+.headerContent: hover
+{
+  padding-top: 7px;
+  background-color: #FF0000;
+  transform: rotate(360deg);
+  border-radius: 0;
+  font-size: 25px;
+}
+.spacerRed
+{
+  background-color: red;
+  height: 20px
+}
+.spacerBlack
+{
+  background-color: black;
+  height: 20px
+}
+.pageContentRed
+{
+  background-color: red;
+  padding: 1px;
+}
+.pageContentBlack
+{
+  background-color: black;
+  padding: 1px;
+  color: white;
+}
+.article
+{
+  width: 75%;
+  margin: 0 auto;
+  display: block;
+}
+#content
+{
+  width: 75%;
+  margin: 0 auto;
+}
+.launcherButtons
+{
+  display: block;
+  text-align: center;
+  margin: 0 auto;
+  padding: 0;
+}
+.buttonOnBlack
+{
+  border: thick solid red;
+  border-radius: 20px;  color: red;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 20px;
+  padding: 10px 5px;
+}
+.buttonOnBlack: hover
+{
+  background-color: red;
+  color: black;
+  transition-duration: 0.5s;
+  font-size: 40px;
+}
+.buttonOnRed  
+{
+  border: thick solid black;
+  border-radius: 20px;
+  color: black;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 20px;
+  padding: 10px 5px;}
+.buttonOnRed: hover
+{
+  background-color: black;
+  color: Red;
+  transition-duration: 0.5s;
+  font-size: 40px;
+}
+#footer
+{
+	width: 90%;
+	color: white;
+	margin: 0 auto;
+	padding-top: 10px;
+	font-size: 0.6em;
+}
+#footer ul
+{
+  columns: 5;
+  -webkit-columns: 5;
+  -moz-columns: 5;
+  list-style: none;
+}
+#footer ul li a
+{
+	text-decoration: none;
+	color: white;
+}
+#ourDirectors
+{
+  width: 75%;
+  margin: 0 auto;
+  display: block;
+}
+director{ 
+	width: 50%;
+}
+#ourDirectors director
+{
+	display: block;
+	margin: 0;
+	text-align: center;
+	padding: 0;
+	float: left;
+}
+@media (max-width: 900px) {
+	director {width: 100%;}
+}
+.directorPhoto
+{
+	width: 95%;
+	transition-duration: 1s;
+	border-radius: 50%;
+}
+.directorPhoto: hover
+{
+	border-radius: 25%;
+}
